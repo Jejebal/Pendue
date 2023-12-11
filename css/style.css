@@ -1,0 +1,54 @@
+body{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 {
+
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 22rem;
+    background-color: lightslategray;
+    justify-content: space-around;
+
+}
+
+input {
+
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+#plateau {
+
+    height: 158px;
+    width: 158px;
+    border: 1px black solid;
+
+}
